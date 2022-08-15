@@ -1,9 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+// import { axios } from '@/lib/axios';
+import { getUser } from '@/getUser';
+// type loginBody = {
+//   email: string,
+//   password: string
+// }
 function App() {
+  React.useEffect(() => {
+
+  }, []);
   return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
